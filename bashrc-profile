@@ -12,6 +12,14 @@ alias e=exit
 alias h=history
 alias ll="ls -haltFG | more "
 alias ls='ls -hltFG'
+
+# directories 
+alias web="cd /var/www/html"
+alias ftpdir="cd /var/ftp"
+alias tftpdir="cd /var/lib/tftp"
+alias netsciptts="cd /etc/sysconfig/network-scripts"
+
+# networks
 alias ips='ip add | grep inet'
 alias publicip='dig +short myip.opendns.com @resolver1.opendns.com'
 
