@@ -1,0 +1,22 @@
+# .bashrc
+# r00txs specific bashr . less typing , simple and easier muscle memory . FTW !
+# Once downloaded , kickoff installer "~/profile/install_profile.sh" 
+# User specific aliases and functions
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias grep='grep -i'
+alias c=clear
+alias e=exit
+alias h=history
+alias ll="ls -haltFG | more "
+alias ls='ls -hltFG'
+alias ips='ip add | grep inet'
+alias publicip='dig +short myip.opendns.com @resolver1.opendns.com'
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
