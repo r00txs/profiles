@@ -10,8 +10,8 @@ alias grep='grep -i'
 alias c=clear
 alias e=exit
 alias h=history
-alias ll="ls -haltFG | more "
-alias ls='ls -hltFG'
+alias ll="ls -haltFG --color=auto | more "
+alias ls="ls -hltFG --color=auto"
 
 # directories 
 alias web="cd /var/www/html"
